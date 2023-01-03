@@ -491,6 +491,10 @@ fieldset/DIEPINT:
       description: ITTXFE
       bit_offset: 4
       bit_size: 1
+    - name: INEPNM
+      description: INEPNM
+      bit_offset: 5
+      bit_size: 1
     - name: INEPNE
       description: INEPNE
       bit_offset: 6
@@ -517,6 +521,10 @@ fieldset/DIEPINT0:
     - name: ITTXFE
       description: ITTXFE
       bit_offset: 4
+      bit_size: 1
+    - name: INEPNM
+      description: INEPNM
+      bit_offset: 5
       bit_size: 1
     - name: INEPNE
       description: INEPNE
@@ -696,6 +704,10 @@ fieldset/DOEPINT:
       description: OTEPDIS
       bit_offset: 4
       bit_size: 1
+    - name: STSPHSRX
+      description: STSPHSRX
+      bit_offset: 5
+      bit_size: 1
     - name: B2BSTUP
       description: B2BSTUP
       bit_offset: 6
@@ -718,6 +730,10 @@ fieldset/DOEPINT0:
     - name: OTEPDIS
       description: OTEPDIS
       bit_offset: 4
+      bit_size: 1
+    - name: STSPHSRX
+      description: STSPHSRX
+      bit_offset: 5
       bit_size: 1
     - name: B2BSTUP
       description: B2BSTUP
@@ -859,6 +875,10 @@ fieldset/GCCFG:
     - name: SOFOUTEN
       description: SOF output enable
       bit_offset: 20
+      bit_size: 1
+    - name: NOVBUSSENS
+      description: VBUS sensing disable option
+      bit_offset: 21
       bit_size: 1
 fieldset/GINTMSK:
   description: Interrupt mask register
